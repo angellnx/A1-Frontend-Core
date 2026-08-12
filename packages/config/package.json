@@ -1,0 +1,9 @@
+{
+  "name": "@meu-projeto/config",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "devDependencies": {
+    "prettier": "^3.4.0"
+  }
+}

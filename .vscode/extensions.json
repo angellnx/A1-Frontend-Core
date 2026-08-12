@@ -1,0 +1,28 @@
+{
+  // Todas essas extensões estão disponíveis no Open VSX Registry, usado pelo
+  // VSCodium (o VSCode "puro", sem telemetria, que não tem acesso à
+  // Marketplace oficial da Microsoft).
+  "recommendations": [
+    // Core: TypeScript / lint / format
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+
+    // Mobile (Expo / React Native)
+    "msjsdiag.vscode-react-native",
+    "expo.vscode-expo-tools",
+
+    // Produtividade geral
+    "eamodio.gitlens",
+    "usernamehw.errorlens",
+    "christian-kohler.path-intellisense",
+    "gruntfuggly.todo-tree",
+
+    // Estilização (o template Expo já veio com Tailwind/NativeWind previsto)
+    "bradlc.vscode-tailwindcss",
+
+    // Desktop — Electron: nenhuma extensão extra necessária por enquanto —
+    // o debugger de Node/Chrome já vem embutido no VSCodium. Reavaliar
+    // quando apps/desktop existir de fato.
+  ]
+}

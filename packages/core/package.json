@@ -1,0 +1,15 @@
+{
+  "name": "@meu-projeto/core",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@meu-projeto/api-client": "workspace:*",
+    "@meu-projeto/types": "workspace:*",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3"
+  }
+}

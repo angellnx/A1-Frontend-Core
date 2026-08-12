@@ -1,0 +1,12 @@
+{
+  // Auto-fix lint issues, organize imports, and sort class members on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Use the TypeScript version installed in node_modules, not VSCodium's bundled one
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "meu-projeto",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev:mobile": "pnpm --filter @meu-projeto/mobile start",
+    "generate:types": "pnpm --filter @meu-projeto/types generate",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.0",
+    "typescript": "~6.0.3"
+  }
+}
