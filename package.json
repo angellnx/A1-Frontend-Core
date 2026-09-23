@@ -1,10 +1,10 @@
 {
-  "name": "meu-projeto",
+  "name": "finance-management-app",
   "private": true,
   "packageManager": "pnpm@9.15.0",
   "scripts": {
-    "dev:mobile": "pnpm --filter @meu-projeto/mobile start",
-    "generate:types": "pnpm --filter @meu-projeto/types generate",
+    "dev:mobile": "pnpm --filter @finance-management-app/mobile start",
+    "generate:types": "pnpm --filter @finance-management-app/types generate",
     "build": "turbo run build",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck"

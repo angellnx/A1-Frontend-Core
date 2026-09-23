@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "a1-frontend-core",
-    "slug": "a1-frontend-core",
+    "name": "finance-management-app",
+    "slug": "finance-management-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "a1frontendcore",
+    "scheme": "financemanagementapp",
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon"

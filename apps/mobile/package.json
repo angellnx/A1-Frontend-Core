@@ -1,12 +1,12 @@
 {
-  "name": "@meu-projeto/mobile",
+  "name": "@finance-management-app/mobile",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
     "@expo/ui": "~57.0.9",
-    "@meu-projeto/api-client": "workspace:*",
-    "@meu-projeto/core": "workspace:*",
-    "@meu-projeto/types": "workspace:*",
+    "@finance-management-app/api-client": "workspace:*",
+    "@finance-management-app/core": "workspace:*",
+    "@finance-management-app/types": "workspace:*",
     "expo": "~57.0.11",
     "expo-constants": "~57.0.9",
     "expo-device": "~57.0.1",
@@ -32,6 +32,8 @@
   "devDependencies": {
     "@types/node": "^26.2.0",
     "@types/react": "~19.2.2",
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~57.0.2",
     "typescript": "~6.0.3"
   },
   "scripts": {
